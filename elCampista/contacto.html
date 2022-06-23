@@ -25,7 +25,7 @@
     </header>
     <br>
     <br>
-    <form method="get" name="Form">
+    <form method="post" name="Form">
         <label for="Form" class="tituloLabel">¿Cuál es la razon de su consulta?<br>
             <input list="tipoConsulta" name="consulta" id="consulta">
                 <datalist id="tipoConsulta">
@@ -71,6 +71,8 @@
     </footer>
     <script>
         
+        let mybutton = document.getElementById("botonVolver");
+
         function validarFormulario(){
             var consulta = document.getElementById("consulta");
             if(consulta.value == ""){
@@ -92,10 +94,10 @@
                 alert("Por favor llene todos los espacios");
                 return;
             } 
-            formulario.submit();
+            Form.submit();
         }
 
-        let mybutton = document.getElementById("botonVolver");
+
 
         function volverArriba() {
             document.body.scrollTop = 0;
