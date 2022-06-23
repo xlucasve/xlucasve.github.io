@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Campista</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="icon" href="img/logo1.png">
+    <link rel="stylesheet" href="estilositio.css">
+</head>
+<body>
+    <header class="header">
+        <div class="izqHeader">
+            <a href="index.html"><h1 class="tituloHeader">El campista</h1>
+        </div>
+        <nav>
+            <a class="botonHeader" href="menu.html">Carta</a>
+            <a class="botonHeader" href="contacto.html">Contacto</a>
+            <a class="botonHeader" href="sobrenosotros.html">Sobre Nosotros</a>
+        </nav>
+    </header>
+    <br>
+    <div class="contenedor-flex">
+        <h3 class="tituloImg">Quienes somos</h3>
+        <p class="textoImg">Somos un restaurante familiar que comenzó en el año 1980 para alimentar la población creciente de la Ciudad de Buenos Aires. Para llegar tuvimos que dejar nuestro
+            campo detrás, pero nunca nuestras costumbres. Desde un principio nuestro objetivo ha sido traer la experiencia y calidad esperada de las parrillas del campo y las 
+            parrillas al paso a la gente de Capital Federal, para que tanto los nativos de la ciudad y la otra gente como nostros que se mudó aquí  pueda vivir esta experiencia
+            única e inolvidable.</p>
+        <p class="textoImg">La calidad siempre ha sido nuestro punto fuerte, pero esto no viene de un talento único. Nuestra calidad ha aumentado a lo largo del tiempo debido a nuestro menú
+            concentrado de carnes que ofrecemos, permitiendonos llevar nuestra habilidad de cocina al máximo posible.</p>
+        <br>
+        <h3 class="tituloImg">Nuestro Equipo</h3>
+        <br>
+    </div>
+    <div>
+      <p class="nosotrosTexto">Juliana Dominguez: Cocinera estrella del restaurante, amante del fuego</p>
+      <p class="nosotrosTexto">Tomas Aguirre: Famoso experimentador, cada día crea uno nuevo</p>
+      <p class="nosotrosTexto">Julián Alvarez: Una persona con un carisma mejor que las estrellas</p>
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/cocinero1.jpeg" class="d-block w-100" alt="Foto de Juliana Dominguez">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="carouselNombre">Juliana Dominguez</h5>
+              <p class="carouselDescripcion">Cocinera estrella del restaurante, amante del fuego</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/cocinero2.jpeg" class="d-block w-100" alt="Foto de Tomas Aguirre">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="carouselNombre">Tomas Aguirre</h5>
+              <p class="carouselDescripcion">Famoso experimentador, cada día crea uno nuevo</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/mozo1.jpeg" class="b-block w-100" alt="Foto de Julián Alvarez">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="carouselNombre">Julián Alvarez</h5>
+              <p class="carouselDescripcion">Una persona con un carisma mejor que las estrellas</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br>
+      <br>
+    <footer class="footer">
+    <div class="izqFooter">
+        <p class="tituloFooter">Monserrat, Capital Federal</p>
+        <p class="textoFooter"><b>Lima 775</b></p>
+        <p class="textoFooter">Teléfono: 011 4000-7600<br>
+            WhatsApp: 011 5892-1783<br>
+            contacto@elcampista.com.ar</p>
+    </div>
+    <div class="centroFooter">
+        <p class="textoCentroFooter">Seguinos en</p>
+        <a href="https://www.google.com/search?q=instagram"><img src="img/instagramlogo.png" alt="Logo de Instagram"class="logoRedes"></a>
+        <a href="https://www.google.com/search?q=twitter"><img src="img/twitterlogo.png" alt="Logo de Twitter" class="logoRedes"></a>
+        <a href="https://www.google.com/search?q=facebook"><img src="img/facebooklogo.png" alto="Logo de Facebook" class="logoRedes" href=""></a>
+    </div>
+        <div class="derFooter">
+            <button onclick="volverArriba()" id="botonVolver" title="Volver Arriba">Ir arriba</button>
+        </div>
+    </footer>
+    <script>
+
+        var mybutton = document.getElementById("botonVolver");
+
+        function volverArriba() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

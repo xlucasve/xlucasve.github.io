@@ -1,0 +1,337 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #3F3E3C;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+a{
+    text-decoration: none;
+}
+
+form{
+    padding: 10px;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: #25150D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.izqHeader{
+    max-width: fit-content;
+}
+
+.derHeader{
+    align-items: flex-start;
+}
+
+.logoHeader{
+    padding: 10px;
+    width: 65px;
+    height: 65px;
+}
+
+.tituloHeader{
+    font-family: Meie Script;
+    font-size: xx-large;
+    color:white;
+}
+
+.fotoPrincipal{
+    width: 100%;
+    height: 575px;
+}
+
+.centered {
+    font-family: Cinzel Decorative;
+    color: white;
+    font-size: xx-large;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered2 {
+    font-family: Cinzel Decorative;
+    color: white;
+    font-size: xx-large;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flecha{
+    width: 30px;
+    height: 30px;
+    padding-left: 48.5%;
+}
+
+.tituloImg{
+    font-family: Cinzel;
+    font-size:x-large;
+    color: white;
+}
+
+.textoImg{
+    font-family: Catamaran;
+    font-size: medium;
+    color: white;
+}
+
+.botonHeader{
+    font-family: Merge One;
+    font-size: 32;
+    color: white;
+    padding: 10px;
+    align-items: center;
+}
+
+a:hover{
+    color:blue;
+}
+
+.contenedor-flex{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item{
+    max-width: 33%;
+}
+
+.imagen{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.contenedor-flex-centrado{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contenedor-flex-separado{
+    padding: 10px;
+    padding-left: 130px;
+    padding-right: 130px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.textoInfoTitulo{
+    font-family: Cinzel;
+    color: #D4BD90;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.textoInfoSubtitulo{
+    font-family: Catamaran;
+    color: #D4BD90;
+    font-size: large;
+    text-align: center;
+}
+
+.textoInfo{
+    font-family: Catamaran;
+    font-size: large;
+    text-align: center;
+    color: white;
+}
+
+.footer{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: #2E2C29;
+    justify-content: space-between;
+}
+
+.izqFooter{
+    padding-left: 15px;
+}
+
+.tituloFooter{
+    font-size: x-large;
+    color: #D4BD90;
+}
+
+.textoFooter{
+    padding-left: 15px;
+    font-family: Catamaran;
+    font-size: medium;
+    color: white;
+    bottom: 0;
+}
+
+.centroFooter{
+    padding-right: 15%;
+}
+
+.derFooter{
+    padding-right: 20px;
+    padding-top: 150px;
+    color: white;
+}
+
+.logoRedes{
+    height: 40px;
+    width: 40px;
+    padding: 25px;
+}
+
+.textoCentroFooter{
+    font-family: Catamaran;
+    font-size: medium;
+    color: white;
+    text-align: center;
+}
+
+.divisor{
+    width: 100%;
+    height: 10px;
+    background-color:red;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.tituloLabel{
+    font-family: Catamaran;
+    font-size: x-large;
+    color: white;
+}
+
+div.c-wrapper{
+    width: 80%; /* for example */
+    margin: auto;
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+width: 100%; /* use this, or not */
+margin: auto;
+}
+
+.carouselNombre{
+    font-size: x-large;
+    background-color: #676462da;
+    background-origin: content-box;
+}
+
+.carouselDescripcion{
+    font-size: larger;
+    background-color: #676462da;
+}
+
+.nosotrosTexto{
+    font-family: Catamaran;
+    font-size: medium;
+    color: white;
+    display: none;
+    text-align: center;
+}
+
+@media screen and (max-width: 850px){
+
+    .header{
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 5px;
+        flex-grow: 1;
+    }
+
+    .izqHeader{
+        margin-top: 0;
+    }
+
+    .derHeader{
+        align-items: center;
+    }
+
+    .fotoPrincipal{
+        width: 100%;
+        height: 50%;
+    }
+
+    .centered{
+        font-size: large;
+    }
+
+    .centered2{
+        font-size: large;
+    }
+
+    .contenedor-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item{
+        max-width: 80%;
+    }
+
+
+    .contenedor-flex-separado{
+        flex-direction: column;
+        justify-content: center;
+        padding:0px
+    }
+
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .derFooter{
+        padding-right: 0px;
+        padding-top: 0%;
+    }
+
+    .centroFooter{
+        padding-right: 0px;
+    }
+
+    .logoRedes{
+        padding-left: 40%;
+        height: 40px;
+        width: 40px;
+        padding: 10px;
+    }
+
+    .nosotrosTexto{
+        display:block;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .centered{
+        top: 40%;
+    }
+
+    .centered2{
+        top:50%;
+    }
+}

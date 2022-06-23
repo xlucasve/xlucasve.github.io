@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Campista</title>
+    <link rel="icon" href="img/logo1.png">
+    <link rel="stylesheet" href="estilositio.css">
+</head>
+<body>
+    <header class="header">
+        <div class="izqHeader">
+            <a href="index.html"><h1 class="tituloHeader">El campista</h1>
+        </div>
+        <nav>
+            <a class="botonHeader" href="menu.html">Carta</a>
+            <a class="botonHeader" href="contacto.html">Contacto</a>
+            <a class="botonHeader" href="sobrenosotros.html">Sobre Nosotros</a>
+        </nav>
+    </header>
+    <br>
+    <h2 class="textoInfoTitulo">Carta</h2>
+    <br>
+    <div class="contenedor-flex">
+        <div>
+            <h3 class="textoInfoTitulo">Carnes</h3>
+            <p class="textoInfo">Tira de Asado</p>
+            <p class="textoInfo">Choripan</p>
+            <p class="textoInfo">Bondiola</p>
+            <p class="textoInfo">Tapa de Asado</p>
+            <p class="textoInfo">Vacío</p>
+        </div>
+        <div>
+            <h3 class="textoInfoTitulo">Acompañamientos</h3>
+            <p class="textoInfo">Ensalada César</p>
+            <p class="textoInfo">Papas Fritas</p>
+            <p class="textoInfo">Puré de Papa</p>
+            <p class="textoInfo">Cebolla Acaramelizada</p>
+            <p class="textoInfo">Choclo a la Parrilla</p>
+        </div>
+        <div>
+            <h3 class="textoInfoTitulo">Bebidas</h3>
+            <p class="textoInfo">Coca-Cola</p>
+            <p class="textoInfo">Sprite</p>
+            <p class="textoInfo">Paso de los Toros</p>
+            <p class="textoInfo">Fanta</p>
+            <p class="textoInfo">Fernet</p>
+            <p class="textoInfo">Cerveza</p>
+            <p class="textoInfo">Vino Rojo</p>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="izqFooter">
+            <p class="tituloFooter">Monserrat, Capital Federal</p>
+            <p class="textoFooter"><b>Lima 775</b></p>
+            <p class="textoFooter">Teléfono: 011 4000-7600<br>
+                WhatsApp: 011 5892-1783<br>
+                contacto@elcampista.com.ar</p>
+        </div>
+        <div class="centroFooter">
+            <p class="textoCentroFooter">Seguinos en</p>
+            <a href="https://www.google.com/search?q=instagram"><img src="img/instagramlogo.png" alt="Logo de Instagram"class="logoRedes"></a>
+            <a href="https://www.google.com/search?q=twitter"><img src="img/twitterlogo.png" alt="Logo de Twitter" class="logoRedes"></a>
+            <a href="https://www.google.com/search?q=facebook"><img src="img/facebooklogo.png" alto="Logo de Facebook" class="logoRedes" href=""></a>
+        </div>
+        <div class="derFooter">
+            <button onclick="volverArriba()" id="botonVolver" title="Volver Arriba">Ir arriba</button>
+        </div>
+    </footer>
+    <script>
+
+        var mybutton = document.getElementById("botonVolver");
+
+        function volverArriba() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>
